@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.ArrayList;
+/**
+ *
+ * @author hepta.brendo.p
+ */
+public class NewClass {
+    public static void main(String args[]){
+       int[] cars = new int[100];
+       int x;
+       int result;
+            for(x = 0; x < 100; x++){
+                cars[x] = x;
+                    if(x == 99){
+                        result = cars[13] + cars[22];
+                        System.out.println("The Result is " + result);
+                    }
+            }
+            
+            
+            
+        
+            
+    }
+    
+}
