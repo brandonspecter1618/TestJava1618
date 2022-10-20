@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.ArrayList;
+/**
+ *
+ * @author hepta.brendo.p
+ */
+public class NewClass {
+    public static void main(String args[]){
+        ArrayList<String> cars = new ArrayList<String>();
+        cars.add("Brandon");
+        cars.add("Lorena");
+        cars.add("Katherine");
+        System.out.println(cars.get(2));
+    }
+    
+}
