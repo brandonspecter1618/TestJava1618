@@ -63,3 +63,39 @@ public class NewClass {
     }
     
 }
+
+
+//or
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.ArrayList;
+import java.util.Iterator;
+/**
+ *
+ * @author hepta.brendo.p
+ */
+public class NewClass {
+    public static void main(String args[]){
+        try{
+            ArrayList<String> fruits = new ArrayList<String>();
+                fruits.add("Volvo");
+                fruits.add("Porsche");
+                fruits.add("Ferrari");
+                fruits.add("Renault");
+                
+            Iterator<String> it = fruits.iterator();
+                while(it.hasNext()){
+                    System.out.println(it.next());
+                }
+        }
+        
+        catch(Exception e){
+            System.out.println("Error Detect " + e);
+        }
+    }
+    
+}
+
