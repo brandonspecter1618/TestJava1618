@@ -1,0 +1,65 @@
+/*
+
+Iterator
+
+*/
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.ArrayList;
+import java.util.Iterator;
+/**
+ *
+ * @author hepta.brendo.p
+ */
+public class NewClass {
+    public static void main(String args[]){
+        ArrayList<String> fruits = new ArrayList<String>();
+        String result;
+        fruits.add("Volvo");
+        fruits.add("Ferrari");
+        fruits.add("BMW");
+        fruits.add("Renault");
+        fruits.add("Lamborguini");
+        
+            Iterator<String> it = fruits.iterator();
+            
+            System.out.println(it.next());
+    }
+    
+}
+
+
+//OR
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.ArrayList;
+import java.util.Iterator;
+/**
+ *
+ * @author hepta.brendo.p
+ */
+public class NewClass {
+    public static void main(String args[]){
+        ArrayList<String> fruits = new ArrayList<String>();
+        String result;
+        fruits.add("Volvo");
+        fruits.add("Ferrari");
+        fruits.add("BMW");
+        fruits.add("Renault");
+        fruits.add("Lamborguini");
+        
+            Iterator<String> it = fruits.iterator();   //Iterator interage com o arraylist
+            
+        while(it.hasNext()){   // Aqui o loop o hasNext verifica o total de itens que precisam serem entregues.
+            System.out.println(it.next());  // Este item seleciona na sequência cada intereção feita pelo While.
+        }
+    }
+    
+}
