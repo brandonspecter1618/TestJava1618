@@ -9,11 +9,20 @@ import java.util.ArrayList;
  */
 public class NewClass {
     public static void main(String args[]){
-        ArrayList<String> cars = new ArrayList<String>();
-        cars.add("Brandon");
-        cars.add("Lorena");
-        cars.add("Katherine");
-        System.out.println(cars.get(2));
+        ArrayList<String> fruits = new ArrayList<String>();
+        String result;
+        fruits.add("Volvo");
+        fruits.add("Ferrari");
+        fruits.add("BMW");
+        fruits.add("Renault");
+        fruits.add("Lamborguini");
+        
+            for(int x = 0; x < fruits.size(); x++){
+                result = fruits.get(x);
+                System.out.println(result);  
+            }
+            
+            System.out.println("A quantidade de item é " + fruits.size());
     }
     
 }
